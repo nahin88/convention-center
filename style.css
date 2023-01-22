@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.banner-text{
+    position: absolute;
+    right: 15%;
+    bottom: 5rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+.tpster{
+    border-left: 5px solid rgb(5, 163, 255);
+}
+
+.Choose-btn{
+    background-color: hsla(322, 81%, 77%, 0.103) !important;
+    
+}
+
+.packege-hover:hover{
+    background-color: rgb(130, 130, 255);
+    padding: 20px;
+    transition: 1s linear;
+    color: #fff;
+    box-shadow: 1px 1px 15px 10px rgba(130, 130, 255, 0.281);
+    border-radius: 1rem;
+}
+.packege-hover:hover .packege-hot{
+    display: block;
+    transition-property: all;
+    transition: 1s linear;
+    transition-delay: 1s;
+    /* border-radius: % !important; */
+}
+.packege-hot{
+    display: none;
+    /* border-radius: 0 !important; */
+}
